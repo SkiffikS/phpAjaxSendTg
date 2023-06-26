@@ -27,7 +27,7 @@ if(!isset($_SESSION["name"])) {
 <body>
   <main class="vh-100 d-flex align-items-center justify-content-center">
     <div class="container text-center">
-      <h1 class="text-center fs-1 font-weight-bold">Thank you <?php echo($_SESSION["name"]) ?> for the registration!</h1>
+      <h1 class="text-center fs-1 font-weight-bold">Thank you <span class="text-primary"><?php echo($_SESSION["name"]) ?></span> for the registration!</h1>
     </div>
   </main>
 </body>
